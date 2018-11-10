@@ -2,7 +2,7 @@
   
 <h2>Continuous Control</h2>
 
-1.	Project Description
+<h3>1. Project Description</h3>
 
 The current project attempts to solve a continuous learning task using a model-free off-policy deep reinforcement learning algorithm called DDPG – Deep Deterministic Policy Gradient, (Lillicrap et. all, "Continuous control with deep reinforcement learning", 2016) that extends the work on Deterministic Policy Gradient algorithm (Silver et al., 2014) using recent successes from Deep Q-Learning (Mnih et al., 2013; 2015) and uses an actor and a critic neural network to decide on which actions to take and evaluate them, respectively.
 
@@ -10,7 +10,7 @@ The task consists of a double-jointed arm controlled by the agent that must lear
 
 The goal of the agent is therefore to maintain the arm’s hand at the target location at all times during all time-steps in a given episode so as to maximise its total reward.
 
-2.	Environment
+<h3>2. Environment</h3>
 
 An adapted version of the Reacher environment is used in the project. Observation states are composed of 33 variables which correspond to physical quantities such as the double-jointed arm’s position, rotation, velocity and angular velocities of each joint. Each variable is a number between -1 and 1.
 
@@ -20,14 +20,15 @@ In our project we have focused on the 20-agents’ version of the adapted Reache
 
 Using the 20-agents’ version, the task is considered solved when the average score obtained across all 20 environment instances is greater than 30 over 100 consecutive episodes.
 
-3. Implementation
+<h3>3. Implementation</h3>
 
 Our implementation uses makes use of two neural networks called actor and critic which we train to to learn a mapping from states provided by the environment and the best continuous action values. The actor is trying to learn about the best actions to take while the critic learning to evaluate those actions.
 
-4. To run the code simply download the available files to a folder, open the Jupyter Notebook and select "Kernel -> Restart & Run All".
+<h3>4. Running the Code</h3>
+To run the code simply download the available files to a folder, open the Jupyter Notebook and select "Kernel -> Restart & Run All".
 
-5. Dependencies
+<h3>5. Dependencies</h3>
 Python 3.6, Numpy 1.15.1, Pytorch 0.4.0, UnityEnvironment.
 
-6. Credits
+<h3>6. Credits</h3>
 The baseline implementation of the DDPG algorithm was taken from here https://github.com/higgsfield/RL-Adventure-2. It was so elegantly implemented that we just had to use it as our first try in cracking the Reacher environment :-)
