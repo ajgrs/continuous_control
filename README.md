@@ -1,6 +1,6 @@
-#Udacity Deep Reinforcement Learning Nanodegree
+<h1>Udacity Deep Reinforcement Learning Nanodegree</h1>
   
-##Continuous Control
+<h2>Continuous Control</h2>
 
 1.	Project Description
 
