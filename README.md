@@ -22,7 +22,7 @@ Using the 20-agents’ version, the task is considered solved when the average s
 
 <h3>3. Implementation</h3>
 
-Our implementation uses makes use of two neural networks called actor and critic which we train to to learn a mapping from states provided by the environment and the best continuous action values. The actor is trying to learn about the best actions to take while the critic learning to evaluate those actions.
+Our implementation uses two neural networks called actor and critic which we train to to learn a mapping from states provided by the environment and the best continuous action values. The actor is trying to learn about the best actions to take while the critic is learning to evaluate those actions.
 
 <h3>4. Running the Code</h3>
 To run the code simply download the available files to a folder, open the Jupyter Notebook and select "Kernel -> Restart & Run All".
